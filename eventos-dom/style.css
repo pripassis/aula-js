@@ -1,0 +1,60 @@
+body {
+  background: rgb(229, 229, 229);
+  width: 100vh;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 4px;
+}
+
+input {
+  font: normal 12pt Arial;
+  padding: 4px;
+  margin: 2px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input[type="button"] {
+  padding: 4px 8px;
+  width: 20vh;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+input[type="number"]:focus {
+  outline: 0;
+}
+
+input[type="number"] {
+  text-align: right;
+}
+
+div#resultado {
+  border: 0.5px rgb(30, 30, 30) solid;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  text-align: right;
+  font-size: xx-large;
+}
+
+.operacao {
+  display: flex;
+  justify-content: flex-end;
+}
+
+select {
+  padding: 4px;
+  margin: 2px;
+}
